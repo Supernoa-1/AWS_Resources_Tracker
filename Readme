@@ -2,6 +2,7 @@ This bash script will present you report of your aws services usage.
 
 Requisite:
 AWSCLI - aws configuartion setup as your access user.
+Ref - https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
 
 Usage:
 run the script in bash and it will give information as below.
@@ -12,3 +13,32 @@ run the script in bash and it will give information as below.
 
 Addtionals:
 You can add this script to crontab to get report frequently as reqiered.
+For that crontab command and usage guidance is provides.
+
+Output example:
+-------------------------------------------------------------------
+S3 Bucket Data:
+--------------------------------------------------
+|                   ListBuckets                  |
++------------------+-----------------------------+
+|    BucketName    |          CreatedOn          |
++------------------+-----------------------------+
+|  supernoa-demo-1 |  2026-02-04T07:31:44+00:00  |
++------------------+-----------------------------+
+Instances Data:
+-------------------------------------------------
+|               DescribeInstances               |
++---------------+--------------+----------------+
+|     Name      |     OS       |   PublicIP     |
++---------------+--------------+----------------+
+|  devops-test-1|  Linux/UNIX  |  3.109.217.95  |
++---------------+--------------+----------------+
+Functions Data:
+{
+    "Functions": []
+}
+Users Data:
+{
+    "Users": []
+}
+-------------------------------------------------------------------
