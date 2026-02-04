@@ -1,0 +1,17 @@
+#Run command [ crontab -e ] to open crontab now add below command in crontab to schedule the report.
+
+Usage:
+# m h  dom mon dow   command
+
+Help:
+# m = minute
+# h = hours
+#dom = day of month
+#mon = month
+#dow = day of week
+# * = all the time
+# 2>&1 = For logging errors and results.
+
+#change the time and date as your requirment, and replace the paths of script and logfile for the output.
+
+* * * * * /path/aws_tracker.sh >> /path/aws_tracker.log 2>&1
