@@ -5,9 +5,9 @@ AWSCLI - aws configuartion setup as your access user.
 Ref - https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
 
 Usage:
-run the script in bash and it will give information as below.
+After AWSCLI Installed and configured run the script in bash and it will give information as below.
 - S3 Buckets - bucket list
-- Instance details - Public IP and DNS name for now.
+- Instance details - Public IP, hostname and OS type for now.
 - Lambda - Functions list
 - IAM - Users list
 
