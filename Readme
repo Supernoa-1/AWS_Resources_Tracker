@@ -6,6 +6,8 @@ Ref - https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.
 
 Usage:
 After AWSCLI Installed and configured run the script in bash and it will give information as below.
+Change the permissions of script file - sudo chmod 777 AWS_Tracker.sh
+
 - S3 Buckets - bucket list
 - Instance details - Public IP, hostname and OS type for now.
 - Lambda - Functions list
