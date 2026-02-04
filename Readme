@@ -1,0 +1,14 @@
+This bash script will present you report of your aws services usage.
+
+Requisite:
+AWSCLI - aws configuartion setup as your access user.
+
+Usage:
+run the script in bash and it will give information as below.
+- S3 Buckets - bucket list
+- Instance details - Public IP and DNS name for now.
+- Lambda - Functions list
+- IAM - Users list
+
+Addtionals:
+You can add this script to crontab to get report frequently as reqiered.
